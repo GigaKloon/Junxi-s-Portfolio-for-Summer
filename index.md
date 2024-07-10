@@ -32,7 +32,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/57i3TMyWw34?si=oYX_4vaOnegvXHNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TGeD-Y4U4Dk?si=ZcI295sEnxb9hgTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Control Servos with computer programs:
 - I can make the servos move based on code projected from my computer
@@ -42,10 +42,7 @@ Control Servos with computer programs:
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-Link: 
-----> https://www.youtube.com/watch?v=57i3TMyWw34 <----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/57i3TMyWw34?si=oYX_4vaOnegvXHNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The assembly of all parts
 - Simply said, I assemble everything according to the instructions
