@@ -2,10 +2,9 @@
 This is my 3-joint robotic arm, an arm with 4 servos. In short, 3 servos move the claw and one opens the claw. 
 
 
-```HTML 
+
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -32,23 +31,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TGeD-Y4U4Dk?si=ZcI295sEnxb9hgTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Control Servos with computer programs:
-- I can make the servos move based on code projected from my computer
-- I learned how to test and replace servos
-- One of the servos moved when no instruction was given
-- What needs to be completed before your final milestone 
+The second milestone taught me how to control servos with computer programs, how to write code to make servos move in parallel and series, and even though it was rather an intermediate step in the project, I still learnt how to make servos move in parallel, which would help me in numerous ways when the joysticks were implemented. Most of the challenges came from faulty claw servos, which when replaced, solved a lot of problems with the arm. I now could grab items with the arm and control all 4 servos at once. My next milestone will be a challenge, as the code from the repository in Github was terrible, so i probably would have to code my own.
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/57i3TMyWw34?si=oYX_4vaOnegvXHNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-The assembly of all parts
-- Simply said, I assemble everything according to the instructions
-- Servos tested on day 3 and day 4
-- Challenges include zeroing servos, managing left / Right Handedness
-- Second milestone: Use computer programs to control the arm.
+
+My first milestone was to assemble everything according to the instructions. Some of the greatest challenges were because the instructions were mostly in black and white, I confused the SG90 arm with the MG90 arm, which didn't fit, forcing me to dissasemble had the structure. Halfway through the process, I had to test my servos, but luckily I had to dissasemble nothing. Finally, because of my bad habit of splitting wires, the wiring to the joystick was a mess, and I had to find other Female-Female wires. I also learned how to un-split wires, by heat welding them together
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
