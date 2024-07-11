@@ -45,6 +45,7 @@ Next, I connected a 7.5 Volt power supply to the system because Lithium Ion Batt
 I assembled the two arms on July 3rd.
 I completed the assembly by July 5th.
 Some of the greatest challenges were because the instructions were mostly in black and white, I confused the SG90 arm with the MG90 arm, which didn't fit, forcing me to dissasemble half the structure. Halfway through the process, I had to test my servos, but luckily I had to dissasemble nothing. Finally, because of my bad habit of splitting wires, the wiring to the joystick was a mess, and I had to find other Female-Female wires. I also learned how to un-split wires, by heat welding them together.
+
 <!---
 # Schematics 
 
