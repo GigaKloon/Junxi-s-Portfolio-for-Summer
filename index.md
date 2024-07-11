@@ -8,11 +8,9 @@ This is my 3-joint robotic arm, an arm with 4 servos. In short, 3 servos move th
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Junxi L | SAS | Design and 3d modelling | Incoming Freshman
+| Junxi L | Shanghai American School | Design and 3D Modelling | Incoming Freshman
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](Junxi Self Portrait.jpg)
   
 <!--- Final Milestone
 
@@ -74,7 +72,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+<!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.-->
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
