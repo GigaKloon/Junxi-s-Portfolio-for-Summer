@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TGeD-Y4U4Dk?si=ZcI295sEnxb9hgTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -51,9 +51,9 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 ```c++
 void setup() {
-  // put your setup code here, to run once:
+  
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  
 }
 
 void loop() {
