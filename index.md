@@ -41,7 +41,7 @@ I assembled the two arms on July 3rd.
 I completed the assembly by July 5th.
 Some of the greatest challenges were because the instructions were mostly in black and white, I confused the SG90 arm with the MG90 arm, which didn't fit, forcing me to dissasemble half the structure. Halfway through the process, I had to test my servos, but luckily I had to dissasemble nothing. Finally, because of my bad habit of splitting wires, the wiring to the joystick was a mess, and I had to find other Female-Female wires. I also learned how to un-split wires, by heat welding them together.
 
-<!---
+
 # Schematics 
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -50,18 +50,101 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include "Servo.h"
+
+int medianj1x = 0;
+int medianj1y = 0;
+int medianj2x = 0;
+int medianj2y = 0;
+int j1x = 90;
+int j1y = 90;
+int j2x = 90;
+int j2y = 90;
+int pressed = 0;
+Servo S1;
+Servo S2;
+Servo S3;
+Servo S4;
 void setup() {
-  
   Serial.begin(9600);
-  
-}
+  S1.attach(4);
+  S2.attach(5);
+  S3.attach(6);
+  S4.attach(7);
+  S2.write(90);
+  medianj1x = analogRead(A0)/2;
+  medianj1y = analogRead(A1)/2;
+  medianj2x = analogRead(A2)/2;
+  medianj2y = analogRead(A3)/2;
+  Serial.println("Hello");
+  pinMode(2, INPUT_PULLUP);
 
+}
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  if (analogRead(A0) > 3 * medianj1x){
+    j1x += 1;
+  }
+  if (analogRead(A0) < medianj1x){
+    j1x -= 1;
+  }
+  if (analogRead(A1) > 3 *medianj1y){
+    j1y += 1;
+  }
+  if (analogRead(A1) < medianj1y){
+    j1y -= 1;
+  }
+  if (analogRead(A2) > 3 * medianj2x){
+    j2x += 1;
+  }
+  if (analogRead(A2) < medianj2x){
+    j2x -= 1;
+  }
+  if (analogRead(A3) > 3 * medianj2y){
+    j2y += 1;
+  }
+  if (analogRead(A3) < medianj2y){
+    j2y -= 1;
+  }
+  S1.write(j1y);
+  S2.write(j1x);
+  S3.write(j2y);
+  S4.write(j2x);
+  if (j1y>180){
+    j1y = 170;
+  }
+  if (j1y<0){
+    j1y = 10;
+  }
+  if (j1x>105){
+    j1x = 100;
+  }
+  if (j1x<75){
+    j1x = 80;
+  }
+  if (j2x>180){
+    j2x = 170;
+  }
+  if (j2x<75){
+    j2x = 85;
+  }
+  if (j2y>180){
+    j2y = 170;
+  }
+  if (j2y<0){
+    j2y = 10;
+  }
+  pressed = digitalRead(2);
+  Serial.println(j1x);
+  if (pressed == 0){
+    medianj1x = analogRead(A0)/2;
+    medianj1y = analogRead(A1)/2;
+    medianj2x = analogRead(A2)/2;
+    medianj2y = analogRead(A3)/2;
+  }
 }
+
 ```
--->
+
 
 # Bill of Materials
 
